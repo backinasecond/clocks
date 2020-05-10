@@ -15,7 +15,8 @@ A cpp header only library template with testing
 - write the parent `CMakeLists.txt file`
 - write the `test/CMakeLists.txt file`
 - building the tests MUST use the warnings from `cmake/CompilerWarnings.cmake`
-- figure out a way for the tests to have access to catch2 (e.g. put the catch2 header file in there directly, or use conan)
+- figure out a way for the tests to have access to catch2 if catch2 is not installed on the system
+     (e.g. put the catch2 header file in there directly, or use conan)
 
 ### Please write this using cmake best practises such that it is extensible and can be used as a template for a header only library in the future
 
