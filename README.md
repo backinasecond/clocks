@@ -12,3 +12,7 @@ A cpp header only library template with testing and CI
 ### Add `CMakeLists.txt` file
 - this should be an interface target since this is a header only library
 - not sure how this should interact with tests
+
+### Helpful links
+- https://github.com/lefticus/cpp_starter_project
+- https://github.com/IronsDu/brynet/blob/master/tests/CMakeLists.txt
