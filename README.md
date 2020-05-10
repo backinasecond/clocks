@@ -22,3 +22,4 @@ A cpp header only library template with testing
 ## Helpful links
 - https://github.com/lefticus/cpp_starter_project
 - https://github.com/IronsDu/brynet/blob/master/tests/CMakeLists.txt
+- https://arne-mertz.de/2018/06/cmake-project-structure/
