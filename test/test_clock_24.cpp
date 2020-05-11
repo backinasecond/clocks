@@ -1,4 +1,4 @@
-#include <catch2/catch.hpp
+#include <catch2/catch.hpp>
 #include "clock_24.hpp"
 
 TEST_CASE( "24 hour clock" )

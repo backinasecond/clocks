@@ -8,6 +8,9 @@ namespace clocks {
         static constexpr int N = 12;
     };
 
+    // We need to define this static constexpr, at least for gcc, see
+    // https://gcc.gnu.org/wiki/VerboseDiagnostics#missing_static_const_definition
+    const int clock_12::N;
 }
 
 #endif //!CLOCKS_CLOCK_12_HPP
